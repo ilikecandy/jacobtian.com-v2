@@ -1,0 +1,48 @@
+﻿body {
+   
+   margin-left:256px;
+   margin-right:256px;
+   border:solid;border-radius:24px 24px;;
+   background-color:antiquewhite
+}
+h1 {color: lawngreen;background:limegreen}
+
+div {
+      font-family:'Source Code Pro';
+}
+
+div {border:groove;width:30px;}
+
+ul li {color:gold}
+
+p.text {background:green;}
+
+#border {border:groove;border-width:20px;border-color:lightskyblue;width:100px;}
+
+span {padding:10px 10px 10px 10px;color:midnightblue!important;border-style:dashed;background-color:yellow;}
+p.padding {color:steelblue;}
+
+h1.margin {margin:10px 10px 10px 100px;}
+
+#image {background:url(tile.jpg)red repeat;height:100px;}
+
+#middle {text-align:center;background:red;}
+
+#fixed {position:fixed;top:0;margin:0;left:0;align-content:center;color:slateblue;background:red;width:100%}
+
+img {border:dashed;border-color:red;border-width:5px;}
+
+p.xxlarge {font-size:xx-large;}
+p.xxsmall {font-size:xx-small;}
+
+p.heavyweight {font-weight:900}
+p.lightweight {font-weight:100}
+
+p.smallcaps {font-variant:small-caps}
+
+p.letterspace {letter-spacing:20px;}
+p.wordspace {word-spacing : 24px;}
+
+p.underline {text-decoration:underline}
+p.lineover {text-decoration:line-through;}
+

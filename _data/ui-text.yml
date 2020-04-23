@@ -25,7 +25,7 @@ en: &DEFAULT_EN
   date_label                 : "Updated:"
   comments_label             : "Leave a comment"
   comments_title             : "Comments"
-  more_label                 : "Learn more"
+  more_label                 : "Check out my blog"
   related_label              : "You may also enjoy"
   follow_label               : "Follow:"
   feed_label                 : "Feed"
@@ -49,6 +49,7 @@ en: &DEFAULT_EN
   search_placeholder_text    : "Enter your search term..."
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+  dark_green                 : "#00ff38"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

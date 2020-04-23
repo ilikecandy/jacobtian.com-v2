@@ -1,0 +1,15 @@
+﻿body
+{
+    background:linear-gradient( red ,yellow ,green ,cyan ,purple );
+    
+}
+
+:link {
+    background-color:aquamarine;
+}
+
+header {
+	text-align: center;
+}
+
+

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB44969C-75BB-48A5-84E5-D7987FED1B4E}"
+	ProjectSection(SolutionItems) = preProject
+		hi.css = hi.css
+		test.html = test.html
+		test1.jpg = test1.jpg
+		test2.jpg = test2.jpg
+		tile.jpg = tile.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{44181B2C-B998-4CFE-8786-FE018B2A8285}"
+	ProjectSection(SolutionItems) = preProject
+		cheese\images\CELIA.png = cheese\images\CELIA.png
+		cheese\images\celia.png.exclude = cheese\images\celia.png.exclude
+		cheese\images\cheese.png = cheese\images\cheese.png
+		cheese\images\cheese5.png = cheese\images\cheese5.png
+		cheese\images\JACOB.png = cheese\images\JACOB.png
+		cheese\images\jacob.png.exclude = cheese\images\jacob.png.exclude
+		cheese\images\JASON.png = cheese\images\JASON.png
+		cheese\images\jason.png.exclude = cheese\images\jason.png.exclude
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cheese", "cheese", "{6133E79A-4A3D-4985-BAF4-A90692EB7C50}"
+	ProjectSection(SolutionItems) = preProject
+		cheese\about-us.html = cheese\about-us.html
+		cheese\cheese-info.html = cheese\cheese-info.html
+		cheese\choose-cheese.html = cheese\choose-cheese.html
+		cheese\main.html = cheese\main.html
+		cheese\our-cheese.html = cheese\our-cheese.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{035364E9-A630-4ABA-951E-21B8C10122AD}"
+	ProjectSection(SolutionItems) = preProject
+		cheese\css\my-first-stylesheet.css = cheese\css\my-first-stylesheet.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{A68D069F-A5F5-4030-9C26-2CF0DF95A14A}"
+	ProjectSection(SolutionItems) = preProject
+		Main\index.html = Main\index.html
+		Main\main.css = Main\main.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44181B2C-B998-4CFE-8786-FE018B2A8285} = {6133E79A-4A3D-4985-BAF4-A90692EB7C50}
+		{035364E9-A630-4ABA-951E-21B8C10122AD} = {6133E79A-4A3D-4985-BAF4-A90692EB7C50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3D30F8-0D0B-4E43-ACD1-E90C22676239}
+	EndGlobalSection
+EndGlobal
