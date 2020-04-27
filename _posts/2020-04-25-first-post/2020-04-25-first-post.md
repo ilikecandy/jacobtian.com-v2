@@ -21,13 +21,11 @@ My favourite colour is green, specifically,
 
 
 {% capture fig_img %}
-[![Foo]({{ '/assets/images/post/2020-04-25-first-post/portrait.png' | relative_url}})
-
-](https://jacobtian.com/asdasdasd/)
+[![Foo]({{ '/assets/images/post/2020-04-25-first-post/portrait.png' | relative_url}})](https://jacobtian.com/asdasdasd/)
 {% endcapture %}
 
 {% capture fig_caption %}
-This is a caption about the teapots
+A picture of myself walking down a path
 {% endcapture %}
 
 <figure>
