@@ -6,7 +6,7 @@ permalink: /asdasdasd/
 
 hi, you found the first secret link on this site. congrats!
 
-<p id="days"></p>
+<p id="days">heheheheh</p>
 
 <script>
     function dateDiffInDays(date1, date2) {   
