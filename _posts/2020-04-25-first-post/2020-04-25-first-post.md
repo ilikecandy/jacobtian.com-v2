@@ -10,11 +10,7 @@ tags:
   - Untagged
 ---
 
-This is the first blog post on this website!
 
-In this blog section,  I'll be posting stuff mostly about 3D printing. On this site, I'll put anything that I find cool. I'll be posting something when I get something cool to post.
-
-My favourite colour is green, specifically, 
 
 <p style="color:#0dbf1f">this green here (#0dbf1f).</p>
 
@@ -33,4 +29,6 @@ My favourite colour is green, specifically,
 <img src="/assets/images/404.png">
 
 <img src="/assets/images/404.png">
+
+<img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png"><img src="/assets/images/404.png">
 
