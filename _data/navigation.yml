@@ -2,8 +2,6 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "Thought Pieces"
-    url: /thought-pieces/
   - title: "About"
     url: /about/
   - title: "Old Website"
