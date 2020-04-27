@@ -13,8 +13,8 @@ hi, you found the first secret link on this site. congrats!
 return Math.round((date2-date1)/(1000*60*60*24)); 
 } 
 var today = new Date();
-var date = (today.getMonth() + 1) + today.getdate() + ',' + today.getFullYear;
+var date = (today.getMonth() + 1) + today.getdate() + "," + today.getFullYear();
     var daysDiff = dateDiffInDays(new Date(date), new Date('April 27, 2020'));
-    document.getElementById("days").innerHTML = 'This was made ' + daysDiff + "days ago";
+    document.getElementById("days").innerHTML = "This was made " + daysDiff + "days ago";
 </script>
 
