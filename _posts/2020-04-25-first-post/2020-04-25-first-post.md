@@ -18,8 +18,12 @@ My favourite colour is green, specifically,
 
 <p style="color:#0dbf1f">this green here (#0dbf1f).</p>
 
+
+
 {% capture fig_img %}
-[![Foo]({{ '/assets/images/post/2020-04-25-first-post/portrait.png' | relative_url }})](https://jacobtian.com/asdasdasd/)
+[![Foo]({{ '/assets/images/post/2020-04-25-first-post/portrait.png' | relative_url}})
+
+](https://jacobtian.com/asdasdasd/)
 {% endcapture %}
 
 {% capture fig_caption %}

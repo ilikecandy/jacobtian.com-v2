@@ -1,7 +1,7 @@
 ---
 title: "you got it"
 layout: archive
-permalink: /asdasdasd
+permalink: /asdasdasd/
 ---
 
 Hello, if you 
