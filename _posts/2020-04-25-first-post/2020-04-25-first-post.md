@@ -1,5 +1,6 @@
 ---
 title: "First Post!"
+comments: true
 header:
   teaser: /assets/images/post/2020-04-25-first-post/Untitled-1.png
   overlay_image: /assets/images/post/2020-04-25-first-post/Untitled-1.png

@@ -15,6 +15,55 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+ 
+	  <script>
+	  var size = 20;
+	  
+	  function minus() {
+	  if (size > 10) {
+	  size -= 2;
+	  
+	  paragraph = document.getElementById( 'content11' );
+	  paragraph.style.fontSize = size + 'px' ;
+	  }
+	  }
+	  
+	  function add() {
+	  if (size < 30) {
+
+	  size += 2;
+	  
+	  paragraph = document.getElementById( 'content11' );
+	  paragraph.style.fontSize = size + 'px' ;
+	  }
+	  }
+	  
+	  </script>
+	  
+	  <style>
+	  #control {
+	  text-size:20px;
+	  width:40px; 
+	  height:40px; 
+	  background-color:#8caaff;
+	  margin: 3px;
+	  margin-top: 8px;
+	  margin-bottom: 8px;
+	  border-color: {{ site.data.ui-text[site.locale].dark_green}};
+	  border-style:solid;
+	  border-size:6px;
+	  border-radius: 16px;
+	  }
+	  </style>
+
+
+	  <p style="color:white;font-size:24px;margin-bottom:0px">Font Size</p>
+	  <table>
+	  <button onClick="add();" id="control"><i class="far fa-plus-square"></i></button>
+	  <button onClick="minus();" id="control"><i class="far fa-minus-square"></i></button>
+	  </table>
+	  
+
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
@@ -33,7 +82,10 @@ layout: default
         </header>
       {% endunless %}
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content" id="content11" itemprop="text" style="font-size:14px;">
+	 
+	  
+	  
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
@@ -64,7 +116,40 @@ layout: default
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
+
+
+
+<div style="color: green">
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = site.url;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = page.url; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://jacobtian.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+{% endif %}
+
+</div>
+
+
   </article>
+
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -91,3 +176,9 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+    
+    <script id="dsq-count-scr" src="//jacobtian-1.disqus.com/count.js" async></script>
+    
+    
+
