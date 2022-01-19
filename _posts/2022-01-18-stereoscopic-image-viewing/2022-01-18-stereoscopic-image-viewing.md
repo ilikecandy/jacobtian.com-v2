@@ -1,5 +1,15 @@
-
-# Viewing 3D Images without Glasses!
+---
+title: "Viewing 3D Images without Glasses!"
+comments: true
+header:
+  teaser: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.png
+  overlay_image: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.png
+last_modified_at: 2022-01-18
+categories:
+  - Blog
+tags:
+  - Untagged
+---
 
 You might have seen a 3D movie at the movie theatre with special glasses, or those red and blue anaglyph 3D glasses. There is actually a method where you can see images in 3D without any glasses right on your phone or computer screen! This method is known as stereoscopy, where it creates the illusion of depth. I found this concept very fascinating and I highly recommend you to try it! There are two methods for viewing without any equipment; parallel and cross. They both involve 'combining' two perspectives into one image that will appear to have depth. This is also used in the Magic Eye series of books, which uses parallel viewing.
 
