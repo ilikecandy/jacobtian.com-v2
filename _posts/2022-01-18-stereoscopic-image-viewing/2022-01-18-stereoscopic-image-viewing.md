@@ -11,6 +11,7 @@ tags:
   - Untagged
 ---
 
+## Viewing 3D Images without Glasses!
 You might have seen a 3D movie at the movie theatre with special glasses, or those red and blue anaglyph 3D glasses. There is actually a method where you can see images in 3D without any glasses right on your phone or computer screen! This method is known as stereoscopy, where it creates the illusion of depth. I found this concept very fascinating and I highly recommend you to try it! There are two methods for viewing without any equipment; parallel and cross. They both involve 'combining' two perspectives into one image that will appear to have depth. This is also used in the Magic Eye series of books, which uses parallel viewing.
 
 ![Mind-blowing 3D Cross View Illusion](https://unbelievable-facts.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-21-at-10.39.10-PM.jpg)
