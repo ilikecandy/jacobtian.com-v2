@@ -1,8 +1,8 @@
 ---
-title: "Jacob's Page of Coolness"
+title: "Greetings!"
 layout: splash
 permalink: /
-date: 2016-03-23T11:48:41-04:00
+date: 
 header:
   overlay_color: "black"
   overlay_filter: "0.5"
@@ -10,7 +10,7 @@ header:
   actions:
     - label: "Check out my blog!"
       url: "/blog/"
-excerpt: "Hi, This is a random website. print(\"beep boop\")"
+excerpt: "Welcome to my website!"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
